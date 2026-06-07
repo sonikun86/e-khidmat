@@ -23,11 +23,9 @@
         <div>
             <div class="flex justify-between items-center">
                 <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
-                @if (Route::has('password.request'))
-                    <a href="{{ route('password.request') }}" class="text-xs font-semibold text-brand-600 hover:text-brand-500">
+                    <a href="https://wa.me/628000000000?text=Halo%20Admin,%20saya%20lupa%20password%20akun%20E-Khidmat%20saya.%20Mohon%20bantu%20di-reset." target="_blank" class="text-xs font-semibold text-brand-600 hover:text-brand-500">
                         Lupa password?
                     </a>
-                @endif
             </div>
             <input id="password" type="password" name="password" required autocomplete="current-password"
                 class="mt-1 block w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-sm shadow-sm placeholder-gray-400
