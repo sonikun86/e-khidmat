@@ -8,6 +8,12 @@ use App\Http\Controllers\LandingController;
 Route::get('/', [LandingController::class, 'index'])->name('home');
 Route::get('/berita/{id}', [LandingController::class, 'show'])->name('berita.show');
 
+Route::get('/sitemap.xml', function () {
+    $posts = \App\Models\Post::orderBy('created_at', 'desc')->get();
+    return response()->view('sitemap', [
+        'posts' => $posts
+    ])->header('Content-Type', 'text/xml');
+});
 Route::get('/dashboard', function () {
     $user = auth()->user();
     if ($user->role === 'admin') {
