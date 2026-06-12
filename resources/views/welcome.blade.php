@@ -3,13 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name', 'E-Khidmat') }} - Portal Organisasi</title>
-    <meta property="og:site_name" content="E-KHIDMAT">
+    <title>PC IPNU BABAT - Portal E-Khidmat</title>
+    <meta property="og:site_name" content="PC IPNU BABAT">
     <script type="application/ld+json">
     {
       "@context" : "https://schema.org",
       "@type" : "WebSite",
-      "name" : "E-KHIDMAT",
+      "name" : "PC IPNU BABAT",
       "url" : "https://pcipnubabat.web.id/"
     }
     </script>
