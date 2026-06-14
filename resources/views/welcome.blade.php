@@ -7,8 +7,8 @@
     <meta property="og:site_name" content="PC IPNU BABAT">
     <script type="application/ld+json">
     {
-      "@context" : "https://schema.org",
-      "@type" : "WebSite",
+      "@@context" : "https://schema.org",
+      "@@type" : "WebSite",
       "name" : "PC IPNU BABAT",
       "url" : "https://pcipnubabat.web.id/"
     }
